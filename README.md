@@ -30,7 +30,7 @@ There is a maximum of 22 bits available that can be shared between these two
 values. You do not have to use all 22 bits.
 
 ### Custom Epoch
-By default this package uses the Twitter Epoch of 1288834974657 or Nov 04 2010 01:42:54.
+By default this package uses the Twitter Epoch of 1561129200000 or Fri Jun 21 2019 15:00:00 GMT+0000 (UTC).
 You can set your own epoch value by setting snowflake.Epoch to a time in milliseconds
 to use as the epoch.
 
@@ -86,7 +86,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/bwmarrin/snowflake"
+	"github.com/kabaluyot/snowflake"
 )
 
 func main() {
@@ -140,4 +140,4 @@ go test -run=^$ -bench=.
 
 If your curious, check out this commit that shows benchmarks that compare a few 
 different ways of implementing a snowflake generator in Go.
-*  https://github.com/bwmarrin/snowflake/tree/9befef8908df13f4102ed21f42b083dd862b5036
+*  Original author: https://github.com/bwmarrin/snowflake/tree/9befef8908df13f4102ed21f42b083dd862b5036
