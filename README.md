@@ -30,7 +30,7 @@ There is a maximum of 22 bits available that can be shared between these two
 values. You do not have to use all 22 bits.
 
 ### Custom Epoch
-By default this package uses the Twitter Epoch of 1561129200000 or Fri Jun 21 2019 15:00:00 GMT+0000 (UTC).
+By default this package uses the Twitter Epoch of 1561100400000 or Fri Jun 21 2019 15:00:00 UTC+8.
 You can set your own epoch value by setting snowflake.Epoch to a time in milliseconds
 to use as the epoch.
 
